@@ -1,0 +1,23 @@
+{
+    "name": "mrssoft/yii2-dadata",
+    "version": "1.0.0",
+    "description": "Components for working with Dadata",
+    "keywords": ["yii", "dadata", "suggestions"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Melnikov Ruslan",
+            "email": "mrs2000@inbox.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "yiisoft/yii2": ">=2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "mrssoft\\dadata\\": ""
+        }
+    }
+}
