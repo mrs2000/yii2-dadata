@@ -7,11 +7,11 @@ Components for working with Dadata
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 Either run
 ```
-php composer.phar require --prefer-dist mrssoft/dadata "*"
+php composer.phar require --prefer-dist mrssoft/yii2-dadata "*"
 ```
 or add
 ```
-"mrssoft/dadata": "*"
+"mrssoft/yii2-dadata": "*"
 ```
 to the require section of your `composer.json` file.
 
