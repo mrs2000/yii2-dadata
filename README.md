@@ -1,4 +1,4 @@
-# RBS
+# DaData Yii2 Input Widget
 Components for working with Dadata
 
 [DaData API](https://dadata.ru/api/suggest/)
