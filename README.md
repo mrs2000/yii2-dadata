@@ -1,6 +1,11 @@
 # DaData Yii2 Input Widget
 Components for working with Dadata
 
+[![Latest Stable Version](https://img.shields.io/packagist/v/mrssoft/yii2-dadata.svg)](https://packagist.org/packages/mrssoft/yii2-dadata)
+![PHP](https://img.shields.io/packagist/php-v/mrssoft/yii2-dadata.svg)
+![Github](https://img.shields.io/github/license/mrs2000/yii2-dadata.svg)
+![Total Downloads](https://img.shields.io/packagist/dt/mrssoft/yii2-dadata.svg)
+
 [DaData API](https://dadata.ru/api/suggest/)
 
 ### Installation
@@ -34,4 +39,12 @@ echo DaDataInputWidget::widget([
         }')            
     ]
 ]);
+```
+
+```php
+$ipLocate = new DaDataIpLocate(['token' => '...']);
+
+$response = $ipLocate->address();
+//or
+$response = $ipLocate->address($ip);
 ```
