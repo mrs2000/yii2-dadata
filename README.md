@@ -35,3 +35,11 @@ echo DaDataInputWidget::widget([
     ]
 ]);
 ```
+
+```php
+$ipLocate = new DaDataIpLocate(['token' => '...']);
+
+$response = $ipLocate->address();
+//or
+$response = $ipLocate->address($ip);
+```
