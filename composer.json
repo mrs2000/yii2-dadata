@@ -1,6 +1,5 @@
 {
     "name": "mrssoft/yii2-dadata",
-    "version": "1.1.0",
     "description": "Components for working with Dadata",
     "keywords": ["yii", "dadata", "suggestions", "ip locate"],
     "type": "yii2-extension",

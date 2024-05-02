@@ -25,7 +25,7 @@ to the require section of your `composer.json` file.
 echo DaDataInputWidget::widget([
     'name' => 'name',
     'options' => [
-        'class' => 'form-control'
+        'class' => 'form-control',
         'placeholder' => 'you placeholder'
     ],
     'clientOptions' => [
